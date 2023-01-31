@@ -1,3 +1,20 @@
-.initials{
-    /*enter css for top left logo/text*/
+.initials{/*top left logo/text*/
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio-pic{/*will stretch to the size of the container it is in (md-5)*/
+    height: auto;
+    width: 100%;
+}
+
+.icon{/*top right image links*/
+    height: 25px;
+    width: 25px;
 }
