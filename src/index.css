@@ -102,3 +102,24 @@ p, h1, h2, h3, h4, h5, h6{
     border-radius: 10px;
     border: 2px solid #07b1cf;
 }
+
+/*Project PAGE*/
+.project-section > h2 {
+    color: #07b1cf;
+    font-weight: 700;
+}
+
+.project-preview {
+    width: 100%;
+    height:auto;
+    margin: 0px;
+}
+
+div > .card {
+    background-color: #353a3d;
+}
+
+.card-header {
+    color: #07b1cf;
+    font-weight: 700;
+}
