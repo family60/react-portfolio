@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
     return(
         <div className="home-content container">
-            <div className="row">
+            <div className="row d-flex justify-content-center align-content-center">
                 <div className="image-cropper col-md-3">
                     <img className="portfolio-pic circle-pic" src={require("../../assets/images/casual_pic.jpeg")} alt="snorlax img"/>
                 </div>
@@ -15,6 +15,7 @@ export default function Home() {
                     <img className="portfolio-pic circle-pic2" src={require("../../assets/images/casual_pic2.jpg")} alt="snorlax img"/>
                 </div>
             </div>
+            
         </div>
     );
 };
