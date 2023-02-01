@@ -10,5 +10,10 @@ page to page. The about page has further information on me, the project page has
 2. npm i
 3. npm run start
 
+## Demo
+Deployed at githug pages
+![image](https://user-images.githubusercontent.com/80120484/216193387-b6eb91b1-562f-45e7-a930-560c389a630d.png)
+
+
 ## License
 MIT
