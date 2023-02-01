@@ -4,8 +4,8 @@ export default function Nav({currentPage, handlePageChange}){
     return(
         <div className="container">
             <div className="row">
-                <p className="col-md-2 initials">KP;</p>
-                <ul className="nav nav-pills col-md-7">
+                <p className="col-md-3 initials">{"<KP/>"}</p>
+                <ul className="nav nav-pills col-md-6">
                     <li className="nav-item">
                         <a href="#home" onClick={() => handlePageChange("Home")} className={currentPage ==="Home" ? "nav-link active" : "nav-link"}>Home</a>
                     </li>
