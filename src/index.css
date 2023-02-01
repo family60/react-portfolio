@@ -58,7 +58,7 @@ p, h1, h2, h3, h4, h5, h6{
     width: auto;
   }
 
-  
+
 /*HOME PAGE TEXT*/
 .hi{
     text-align: center;
@@ -84,4 +84,10 @@ p, h1, h2, h3, h4, h5, h6{
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     color:white;
+}
+
+
+/*ABOUT PAGE TEXT*/
+.about-section > h2{
+    color: #07b1cf;
 }
