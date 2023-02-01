@@ -123,3 +123,17 @@ div > .card {
     color: #07b1cf;
     font-weight: 700;
 }
+
+/*CONTACT PAGE*/
+.contact-section > div.container > h2{
+    color: #07b1cf;
+    font-weight: 600;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
