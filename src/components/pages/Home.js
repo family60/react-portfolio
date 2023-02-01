@@ -8,7 +8,7 @@ export default function Home() {
                     <h1>Hi! I'm Kush Patel</h1>
                 </div>
                 <div className="col-md-5">
-                    <img className="portfolio-pic" src={require("../../assets/images/snorlax.png")} alt="snorlax img"/>
+                    <img className="portfolio-pic" src={require("../../assets/images/casual_pic.jpeg")} alt="snorlax img"/>
                 </div>
             </div>
         </div>

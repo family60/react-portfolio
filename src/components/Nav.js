@@ -20,9 +20,9 @@ export default function Nav({currentPage, handlePageChange}){
                     </li>
                 </ul>
                 <div className="col-md-3 icons">
-                    <a href="https://www.linkedin.com/in/kush-patel-b73230202/" target="_blank"><img className="icon" src={require("../../src/assets/images/linkedin.png")}/></a>
-                    <a href="https://github.com/family60" target="_blank"><img className="icon" src={require("../../src/assets/images/github.png")}/></a>
-                    <a href={require("../../src/assets/Resume.pdf")} target="_blank"><img className="icon" src={require("../../src/assets/images/resume_icon.png")}/></a>
+                    <a href="https://www.linkedin.com/in/kush-patel-b73230202/" target="_blank"><img className="icon" src={require("../../src/assets/images/linkedin_white.png")}/></a>
+                    <a href="https://github.com/family60" target="_blank"><img className="icon" src={require("../../src/assets/images/github_white.png")}/></a>
+                    <a href={require("../../src/assets/Resume.pdf")} target="_blank"><img className="icon" src={require("../../src/assets/images/resume_icon_white.png")}/></a>
                 </div>
             </div>
         </div>
