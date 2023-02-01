@@ -91,3 +91,14 @@ p, h1, h2, h3, h4, h5, h6{
 .about-section > h2{
     color: #07b1cf;
 }
+
+
+/*ABOUT PAGE ICONS*/
+.about-icons > img{
+    width: 150px;
+    height: 150px;
+    margin: 1.5rem;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #07b1cf;
+}

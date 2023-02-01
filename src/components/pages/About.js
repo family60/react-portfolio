@@ -19,7 +19,7 @@ export default function About() {
                 <p>
                     I graduated from Humber college with a diploma in "Computer Programming". My graduation happened
                     during the pandemic and so pursuing further studies became difficult as most bridge programs were no longer supported.
-                    I decided to take a free online certification in "Javascript Algorithms and Data Structures" to pass time and try to learn coding on my own.
+                    I decided to take a online certification in "Javascript Algorithms and Data Structures" to pass time and try to learn coding on my own.
                     I quickly realized how intimidating learning to code on your own can be and how real imposter syndrome is when looking for jobs.
                     After not finding much success I decided to return to my studies at the University of Toronto, in their school of continuing studies.
                     There, I received a certificate for successfully completing their "Full-Stack Flex" Bootcamp.
