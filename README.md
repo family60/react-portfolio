@@ -11,7 +11,7 @@ page to page. The about page has further information on me, the project page has
 3. npm run start
 
 ## Demo
-Deployed at githug pages
+Deployed at: https://family60.github.io/react-portfolio/
 ![image](https://user-images.githubusercontent.com/80120484/216193387-b6eb91b1-562f-45e7-a930-560c389a630d.png)
 
 
