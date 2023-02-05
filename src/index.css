@@ -10,6 +10,7 @@ p, h1, h2, h3, h4, h5, h6{
     font-size: 28px;
     font-weight: 800;
     color: #07b1cf;
+    text-align: center;
 }
 
 .row{
@@ -23,9 +24,20 @@ p, h1, h2, h3, h4, h5, h6{
     width: 100%;
 }
 
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .icon{/*top right image links*/
-    height: 25px;
-    width: 25px;
+    height: 32px;
+    width: 32px;
+}
+
+.nav-pills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*These stylings are used in conjunction to make proper looking circle images (even if the original image was a rectangle)*/
@@ -90,6 +102,7 @@ p, h1, h2, h3, h4, h5, h6{
 /*ABOUT PAGE TEXT*/
 .about-section > h2{
     color: #07b1cf;
+    text-align: center;
 }
 
 
@@ -156,4 +169,20 @@ form{
 
 .error-text{
     color: red;
+}
+
+.form-group{
+    margin: 4px;
+}
+
+.form-row > div{
+    margin: 10px;
+}
+
+.form-group > button{
+    margin: 10px;
+    padding: 2px;
+}
+.btn-dark:hover{
+    background-color: #07b1cf;
 }

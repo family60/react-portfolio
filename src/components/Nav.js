@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Nav({currentPage, handlePageChange}){
     return(
-        <div className="container">
+        <div className="container nav-section">
             <div className="row">
                 <p className="col-md-3 initials">{"<KP/>"}</p>
                 <ul className="nav nav-pills col-md-6">
@@ -22,7 +22,7 @@ export default function Nav({currentPage, handlePageChange}){
                 <div className="col-md-3 icons">
                     <a href="https://www.linkedin.com/in/kush-patel-b73230202/" target="_blank"><img className="icon" src={require("../../src/assets/images/linkedin_white.png")}/></a>
                     <a href="https://github.com/family60" target="_blank"><img className="icon" src={require("../../src/assets/images/github_white.png")}/></a>
-                    <a href={require("../../src/assets/Resume.pdf")} target="_blank"><img className="icon" src={require("../../src/assets/images/resume_icon_white.png")}/></a>
+                    <a href={require("../../src/assets/Kush-Patel.pdf")} target="_blank"><img className="icon" src={require("../../src/assets/images/resume_icon_white.png")}/></a>
                 </div>
             </div>
         </div>
