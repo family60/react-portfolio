@@ -107,6 +107,9 @@ p, h1, h2, h3, h4, h5, h6{
 .project-section > h2 {
     color: #07b1cf;
     font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
 }
 
 .project-preview {
@@ -117,6 +120,19 @@ p, h1, h2, h3, h4, h5, h6{
 
 div > .card {
     background-color: #353a3d;
+    margin: 20px;
+    height: auto;
+    width: 75%;
+}
+
+.badge-info {
+    background-color: #07b1cf;
+    margin: 8px;
+}
+
+.btn-primary{
+    background-color: #07b1cf;
+    border: #07b1cf;
 }
 
 .card-header {
