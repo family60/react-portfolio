@@ -15,9 +15,6 @@ export default function Nav({currentPage, handlePageChange}){
                     <li className="nav-item">
                         <a href="#projects" onClick={() => handlePageChange("Projects")} className={currentPage ==="Projects" ? "nav-link active" : "nav-link"}>Projects</a>
                     </li>
-                    <li className="nav-item">
-                        <a href="#contact" onClick={() => handlePageChange("Contact")} className={currentPage ==="Contact" ? "nav-link active" : "nav-link"}>Contact</a>
-                    </li>
                 </ul>
                 <div className="col-md-3 icons">
                     <a href="https://www.linkedin.com/in/kush-patel-b73230202/" target="_blank"><img className="icon" src={require("../../src/assets/images/linkedin_white.png")}/></a>

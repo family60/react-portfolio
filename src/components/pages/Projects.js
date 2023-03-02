@@ -3,9 +3,74 @@ import React from "react";
 export default function Projects() {
     return(
         <div className="project-section">
-            <h2>Projects</h2>
+            
+            <h2>Professional Projects</h2>
+            <div className="d-flex">
+                <div className="col-md-4">
+                    <div className="card">
+                        <div className="card-header">Baby Phoenix Studios</div>
+                        <img src={require("../../assets/images/bps_transparent.png")} className="card-img-top project-preview" alt="Welcome to Anime Bootcamp"></img>
+                        <div className="card-body">
+                            <p className="card-text">
+                                Working with the devs at Baby Phoenix Studios to help create a professional looking landing page for their studio website. Helping them with the early stages of development - planning out meetings and figuring out project requirements. Currently discussing mvp's to be met and possible deadlines for early stages of features to be developed.
+                            </p>
+                            <span className="badge badge-info">Bootstrap</span>
+                            <span className="badge badge-info">React</span>
+                            <span className="badge badge-info">Agile</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card">
+                        <div className="card-header">Anime Bootcamp</div>
+                        <img src={require("../../assets/images/anime_bootcamp.PNG")} className="card-img-top project-preview" alt="Welcome to Anime Bootcamp"></img>
+                        <div className="card-body">
+                            <p className="card-text">
+                                Collaborated with a group of individual developers to create a unique and friendly method for users to browse for their favourite anime and manga. Anime Bootcamp is a MERN stack application that uses JWT for login and signup authentication and allows users to serach for manga and books through two different API's. Their saved books are then tied to their user account and is fetched from MongoDB using queries and mutations from GraphQL each time the user logs in.
+                            </p>
+                            <a href="https://github.com/renfunny/anime-bootcamp" target="_blank" className="btn btn-primary">GitHub</a>
+                            <span className="badge badge-info">JWT</span>
+                            <span className="badge badge-info">React</span>
+                            <span className="badge badge-info">GraphQL</span>
+                            <span className="badge badge-info">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                <div className="card">
+                        <div className="card-header">CMS Hospital Database</div>
+                        <img src={require("../../assets/images/hospital_database.PNG")} className="card-img-top project-preview" alt="Just Another Text Editor"></img>
+                        <div className="card-body">
+                            <p className="card-text">
+                            Worked with a small group of developers to help create a better version of the CMS styled applications that hospitals have been using for a long period of time. Worked on Authentication using JSON Web Tokens (JWT), and created the express handlebar template for Patients table page and it's corresponding CRUD operations.
+                            </p>
+                            <a href="https://github.com/family60/cms-hospital-database" target="_blank" className="btn btn-primary">GitHub</a>
+                            <span className="badge badge-info">Authentication</span>
+                            <span className="badge badge-info">CRUD</span>
+                            <span className="badge badge-info">Express Handlebars</span>
+                            <span className="badge badge-info">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Personal Projects</h2>
             <div className="container d-flex">
                 <div className="col-md-6">
+                    <div className="card">
+                        <div className="card-header">Google Book Search Engine</div>
+                        <img src={require("../../assets/images/google_books.png")} className="card-img-top project-preview" alt="Search Books"></img>
+                        <div className="card-body">
+                            <p className="card-text">
+                            Used JWT to allow users to login and sign up. From here, users have the options of searching for books, adding and removing books from their collection, and see more details on each book. This program uses the MERN stack, specifically: GraphQL to query for google books api data, Mongoose to save user info and saved books, Express and Apollo for server and React.
+                            </p>
+                            <a href="https://github.com/family60/google-books-search" target="_blank" className="btn btn-primary">GitHub</a>
+                            <span className="badge badge-info">JWT</span>
+                            <span className="badge badge-info">GraphQL</span>
+                            <span className="badge badge-info">React</span>
+                            <span className="badge badge-info">MongoDB</span>
+                        </div>
+                    </div>
                     <div className="card">
                         <div className="card-header">Online Text Editor</div>
                         <img src={require("../../assets/images/note_taker.PNG")} className="card-img-top project-preview" alt="Just Another Text Editor"></img>
@@ -16,20 +81,6 @@ export default function Projects() {
                             <a href="https://github.com/family60/Online-Note-Taking" target="_blank" className="btn btn-primary">GitHub</a>
                             <span className="badge badge-info">JSON</span>
                             <span className="badge badge-info">Data Persistency</span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-header">CMS Hospital Database</div>
-                        <img src={require("../../assets/images/hospital_database.PNG")} className="card-img-top project-preview" alt="Just Another Text Editor"></img>
-                        <div className="card-body">
-                            <p className="card-text">
-                            When a user first enters the website, they are prompted with a login/signup screen. If they already have an account with us, they can login, if not, they can fil out a sign up form to get started. Once either form is submitted, the user is redirected to the homepage. From there, the user may read about the appointments that some patients have with some doctors, read about the top doctors working at the hospital, or click on any link in the navbar. There is an option to logout or view Floor or Patients tables. Clicking on their table link with allow the user to view and run CRUD operations on each table (if they have permission).
-                            </p>
-                            <a href="https://github.com/family60/cms-hospital-database" target="_blank" className="btn btn-primary">GitHub</a>
-                            <span className="badge badge-info">Authentication</span>
-                            <span className="badge badge-info">CRUD</span>
-                            <span className="badge badge-info">Express Handlebars</span>
-                            <span className="badge badge-info">MySQL</span>
                         </div>
                     </div>
                     <div className="card">

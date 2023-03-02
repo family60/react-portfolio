@@ -37,7 +37,7 @@ p, h1, h2, h3, h4, h5, h6{
 .nav-pills{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 /*These stylings are used in conjunction to make proper looking circle images (even if the original image was a rectangle)*/

@@ -3,7 +3,6 @@ import Nav from "./Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
 
 export default function PortfolioContainer() {
     //setting the default state to the 'home' page/tab
@@ -19,9 +18,6 @@ export default function PortfolioContainer() {
         };
         if(currentPage === "Projects"){
             return <Projects />
-        };
-        if(currentPage === "Contact"){
-            return <Contact />
         };
     };
 
