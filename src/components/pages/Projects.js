@@ -12,7 +12,7 @@ export default function Projects() {
                         <img src={require("../../assets/images/bps_transparent.png")} className="card-img-top project-preview" alt="Welcome to Anime Bootcamp"></img>
                         <div className="card-body">
                             <p className="card-text">
-                                Working with the devs at Baby Phoenix Studios to help create a professional looking landing page for their studio website. Helping them with the early stages of development - planning out meetings and figuring out project requirements. Currently discussing mvp's to be met and possible deadlines for early stages of features to be developed.
+                                Working with the devs at Baby Phoenix Studios to help create a professional looking landing page for their studio website. Helping them with the early stages of web development - planning out meetings and figuring out project requirements. Currently discussing mvp's to be met and possible deadlines for early stages of features to be developed.
                             </p>
                             <span className="badge badge-info">Bootstrap</span>
                             <span className="badge badge-info">React</span>
