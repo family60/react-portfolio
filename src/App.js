@@ -1,5 +1,9 @@
-import PortfolioContainer from './components/PortfolioContainer';
-
-const App = () => <PortfolioContainer/>;
+function App() {
+    return(
+        <div className='App'>
+            <h1>Overhaul</h1>
+        </div>
+    );
+};
 
 export default App;
